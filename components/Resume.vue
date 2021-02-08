@@ -17,10 +17,6 @@
         <Skills />
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <Interests />
-      </section>
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <Projects />
       </section>
@@ -35,7 +31,6 @@ import Presentation from "../components/Sections/Presentation";
 import Education from "../components/Sections/Education";
 import Experience from "../components/Sections/Experience";
 import Skills from "../components/Sections/Skills";
-import Interests from "../components/Sections/Interests";
 import Projects from "../components/Sections/Projects";
 
 export default {
@@ -45,7 +40,6 @@ export default {
     Experience,
     Education,
     Skills,
-    Interests,
     Projects
   },
   methods: {}

@@ -1,25 +1,14 @@
 <template>
   <div>
-    <!-- Navigation -->
-    <!-- <Navigation /> -->
-    <!-- Content -->
     <div class="container content">
       <nuxt/>
     </div>
+    <div class="copyright">
+      {{ $t('copyright.madeWith') }}
+      <a :href="$t('copyright.github')" style="color:white;">nuxt-resume</a>
+    </div>
   </div>
 </template>
-
-<!--
-<script>
-import Navigation from "@/components/Navigation"
-
-export default {
-  components: {
-    Navigation
-  }  
-}
-</script>
--->
 
 <style>
 html {
@@ -65,5 +54,13 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.copyright {
+  padding-top: 0;
+  margin-left: 17rem;
+  background-color:var(--color-secondary);
+  color: var(--color-text-secondary);
+  text-align: center;
 }
 </style>

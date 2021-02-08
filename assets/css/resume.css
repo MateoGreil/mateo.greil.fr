@@ -158,9 +158,9 @@ body {
 
   :root {
     --color: #868e96;
-    --color-primary: #478547;
-    --color-secondary: #3b833b;
-    --color-primary-hover: #276827;
+    --color-primary: #1E90FF;
+    --color-secondary: #1E90FF;
+    --color-primary-hover: #6495ED;
     --color-text-primary: #343a40;
     --color-text-secondary: #e2e2e2; 
     --color-text-third: #343a40;

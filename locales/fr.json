@@ -118,21 +118,31 @@
     "projectsInfo": [
       {
         "name": "EkyAgri (@Ekylibre)",
+		"nameUrl": "https://github.com/ekylibre/ekylibre",
         "description": "Le logiciel de gestion complète des exploitations agricoles.",
         "image": "/images/ekylibre.jpg",
         "siteUrl": "https://demo.ekylibre.farm"
       },
       {
         "name": "Table Tennis Counter (@Home)",
+		"nameUrl": "https://github.com/MateoGreil/table-tennis-counter",
         "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas terminé.",
 		"image": "",
         "siteUrl": "https://github.com/MateoGreil/table-tennis-counter"
 	  },
       {
         "name": "Admissions 42 (@42network)",
+        "nameUrl": "https://admissions.42.fr",
         "description": "Site admissions des candidatures 42network",
         "image": "/images/admissions42.png",
         "siteUrl": "https://admissions.42.fr"
+      },
+      {
+        "name": "twitter-mat (@Home)",
+        "nameUrl": "https://github.com/MateoGreil/mat-twitter",
+        "description": "Mon 'HelloWorld' rails",
+        "image": "",
+        "siteUrl": "https://github.com/MateoGreil/mat-twitter"
       }
     ]
   }

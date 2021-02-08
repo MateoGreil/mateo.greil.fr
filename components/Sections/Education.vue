@@ -12,8 +12,11 @@
         <div class="subheading mb-3">{{ degree.name }}</div>
         <div v-for="item in degree.itemList" :key="item">{{ item }}</div>
       </div>
-      <div class="resume-date text-md-right">
-        <span class="text-primary">{{ degree.startEndDate }}</span>
+	  <div class="my-auto align-space-between text-md-right">
+        <div class="resume-date mb-3">
+          <span class="text-primary">{{ degree.startEndDate }}</span>
+        </div>
+        <img class="mt-3" :src="degree.imageUrl" :alt="degree.collage + Image" width="auto" height="100vh">
       </div>
     </div>
   </div>

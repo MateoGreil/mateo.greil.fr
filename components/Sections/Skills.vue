@@ -8,14 +8,6 @@
         <i :class="icon"></i>
       </li>
     </ul>
-
-    <div class="subheading mb-3">{{ $t('skills.workflow') }}</div>
-    <ul class="fa-ul mb-0">
-      <li v-for="item in  $t('skills.itemList')" :key="item">
-        <i class="fa-li fa fa-check"></i>
-        {{item}}
-      </li>
-    </ul>
   </div>
 </template>
 
