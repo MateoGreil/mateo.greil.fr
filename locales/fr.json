@@ -47,6 +47,23 @@
     "title": "Experiences professionnelles",
     "works": [
       {
+        "position": "CDI Backend Developer",
+        "companie": "Wecasa",
+        "responsabilities": [
+          "Développer de nouvelles fonctionnalités pour les clients (nouveaux services, internationalisation), les professionnels (calendrier, chat, géolocalisation), le service client (interface admin) et l’autopilote (traitement automatique et en temps réel des commandes et des interactions clients-professionnels, algorithme de matching), maintenance, tests, mise en production.",
+          "Définition et implémentation des API pour les développements front (web ou mobile)",
+          "Etre attentif à la qualité générale du code, participer à la réflexion technique sur les choix d’architecture et de technologies.",
+          "Travailler en méthodologie « Agile » avec l’équipe technique, Design et Produit."
+        ],
+		"devIcons": [
+	        "devicon-rails-plain",
+	        "devicon-mysql-plain",
+	        "devicon-docker-plain"
+		],
+        "startEndDate": "Juin 2021 - Maintenant",
+		"url": "https://ekylibre.com/"
+      },
+      {
         "position": "Stage/CDD FullStack Developer",
         "companie": "Ekylibre",
         "responsabilities": [
@@ -57,7 +74,7 @@
 	        "devicon-postgresql-plain",
 	        "devicon-docker-plain"
 		],
-        "startEndDate": "Juillet 2020 - Maintenant",
+        "startEndDate": "Juillet 2020 - Mars 2021",
 		"url": "https://ekylibre.com/"
       },
       {
@@ -101,8 +118,8 @@
     "title": "Competences 🎯",
     "iconsTitle": "Languages de programmation & Outils",
     "devIcons": [
-	  "devicon-ruby-plain",
-	  "devicon-c-plain",
+	    "devicon-ruby-plain",
+	    "devicon-c-plain",
       "devicon-rails-plain",
       "devicon-postgresql-plain",
       "devicon-git-plain",
