@@ -172,8 +172,8 @@ body {
   .dark-mode {
     
     --color: #ebf4f1;
-    --color-primary: #0a0d0f;
-    --color-secondary: #000000;
+    --color-primary: #1E90FF;
+    --color-secondary: #1E90FF;
     --color-primary-hover: #020405;
     --color-text-primary: #ffffff;
     --color-text-secondary: #e2e2e2; 

@@ -13,3 +13,5 @@ services:
       - '8081:3000'
     environment:
       HOST: 0.0.0.0
+    command: bash -c "export NODE_OPTIONS=--openssl-legacy-provider && npm run dev"
+
